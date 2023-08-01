@@ -3,5 +3,10 @@
     "title": "chrome",
     "description": "This extension automatically opens Chrome browser when you run chrome",
     "batfile": "chrome.bat"
+  },
+  {
+    "title": "Touch",
+    "description": "This extension allows you tu use touch on windows",
+    "batfile": "touch.bat"
   }
 ]
