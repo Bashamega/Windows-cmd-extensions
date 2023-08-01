@@ -1,0 +1,7 @@
+[
+  {
+    "title": "chrome",
+    "description": "This extension automatically opens Chrome browser when you run chrome",
+    "batfile": "chrome.bat"
+  }
+]
