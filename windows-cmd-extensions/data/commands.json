@@ -1,12 +1,12 @@
 [
   {
-    "title": "chrome",
-    "description": "This extension automatically opens Chrome browser when you run chrome",
+    "title": "Chrome",
+    "description": "This extension automatically opens Chrome browser when you run Chrome.",
     "batfile": "chrome.bat"
   },
   {
     "title": "Touch",
-    "description": "This extension allows you tu use touch on windows",
+    "description": "This extension allows you to use touch on Windows.",
     "batfile": "touch.bat"
   }
 ]
