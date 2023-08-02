@@ -8,5 +8,11 @@
     "title": "Touch",
     "description": "This extension allows you to use touch on Windows.",
     "batfile": "touch.bat"
+  },
+  {
+    "title": "battery",
+    "description": 
+"Check your laptop's battery status with ease using this user-friendly batch script. Get real-time updates on the current charge level and charging status, ensuring efficient power management for uninterrupted productivity.",
+    "batfile": "battery"
   }
 ]
