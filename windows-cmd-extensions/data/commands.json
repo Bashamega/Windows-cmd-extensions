@@ -13,11 +13,11 @@
     "title": "battery",
     "description": 
 "Check your laptop's battery status with ease using this user-friendly batch script. Get real-time updates on the current charge level and charging status, ensuring efficient power management for uninterrupted productivity.",
-    "batfile": "battery"
+    "batfile": "battery.bat"
   },
   {
     "title": "IP Information",
     "description": "Get information about your computer's IP address",
-    "batfile": "ip-information"
+    "batfile": "ip-information.bat"
   }
 ]
