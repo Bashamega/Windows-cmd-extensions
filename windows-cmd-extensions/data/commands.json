@@ -19,5 +19,10 @@
     "title": "IP Information",
     "description": "Get information about your computer's IP address",
     "batfile": "ip-information.bat"
+  },
+  {
+    "title": "filecounter",
+    "description": "Counts all the files in a specific directory that you can assign",
+    "batfile": "filecounter.bat"
   }
 ]
