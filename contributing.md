@@ -1,4 +1,4 @@
-#Contributing
+# Contributing
 Contributions to Windows CMD Extensions are welcome! If you would like to add a custom command to the application, follow these steps:
 
 Fork the Windows CMD Extensions repository to your GitHub account.
