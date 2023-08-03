@@ -23,6 +23,7 @@
   {
     "title": "filecounter",
     "description": "Counts all the files in a specific directory that you can assign",
-    "batfile": "filecounter.bat"
+    "batfile": "filecounter.bat",
+    "bashfile":"filecounter.sh"
   }
 ]
