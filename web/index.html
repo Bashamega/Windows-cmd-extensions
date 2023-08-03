@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows cmd extensions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <h1>Windows cmd extensions</h1>
+            <input type="search" id="searchInput" placeholder="Search...">
+        </nav>
+        <section id="container">
+
+        </section>
+    </main>
+    <script>
+        fetch("https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/data/commands.json")
+        .then(res=>res.json())
+        .then(data=>{
+            const container = document.getElementById("container");
+
+            function renderCommands(commands) {
+                container.innerHTML = "";
+                commands.forEach(command => {
+                    const div = document.createElement("div");
+                    div.classList.add("command-card");
+                    div.innerHTML = `<h1>${command.title}</h1><br><p>${command.description}</p> <a href="https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/bats/${command.batfile}" target="_blank"><button>Download batch file</button></a>${command.bashfile ? `<a href="https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/bash/${command.bashfile}" target="_blank"><button>Download bash file</button></a>` : ''}`;
+                    container.appendChild(div);
+                });
+            }
+
+            renderCommands(data);
+
+            const searchInput = document.getElementById("searchInput");
+            searchInput.addEventListener("input", () => {
+                const searchTerm = searchInput.value.toLowerCase();
+                const filteredCommands = data.filter(command => command.title.toLowerCase().includes(searchTerm));
+                renderCommands(filteredCommands);
+            });
+
+            // Sort the items alphabetically by title
+            data.sort((a, b) => a.title.localeCompare(b.title));
+        })
+    </script>
+</body>
+</html>
