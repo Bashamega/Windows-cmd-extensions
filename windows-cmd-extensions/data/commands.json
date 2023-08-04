@@ -2,34 +2,73 @@
   {
     "title": "Chrome",
     "description": "This extension automatically opens Chrome browser when you run Chrome.",
-    "batfile": "chrome.bat"
+    "batfile": "chrome.bat",
+    "author": "bashamega",
+    "command": [{
+      "title": "Command 1:",
+      "code": "chrome"
+    }]
   },
   {
     "title": "Touch",
+    "author": "bashamega",
+
     "description": "This extension allows you to use touch on Windows.",
-    "batfile": "touch.bat"
+    "batfile": "touch.bat",
+    "command": [{
+      "title": "Command 1:",
+      "code": "touch file"
+    }]
   },
   {
     "title": "battery",
+    "author": "bashamega",
+
     "description": 
 "Check your laptop's battery status with ease using this user-friendly batch script. Get real-time updates on the current charge level and charging status, ensuring efficient power management for uninterrupted productivity.",
-    "batfile": "battery.bat"
+    "batfile": "battery.bat",
+    "command": [{
+      "title": "Command 1:",
+      "code": "battery"
+    }]
   },
   {
     "title": "IP Information",
+    "author": "Axorax",
     "description": "Get information about your computer's IP address",
-    "batfile": "ip-information.bat"
+    "batfile": "ip-information.bat",
+    "command": [{
+      "title": "Command 1:",
+      "code": "ip-information"
+    }]
   },
   {
     "title": "filecounter",
     "description": "Counts all the files in a specific directory that you can assign",
     "batfile": "filecounter.bat",
-    "bashfile":"filecounter.sh"
+    "bashfile":"filecounter.sh",
+    "author": "bashamega",
+
+    "command": [{
+      "title": "Count all the file in the current directory",
+      "code": "filecounter ."
+    },{
+      "title": "Count all the files in a specific directory",
+      "code": "filecounter path/to/file"
+    }]
   },
   {
     "title": "open",
     "description": "This command opens any app you want to open",
+    "author": "bashamega",
     "batfile": "open.bat",
-    "bashfile": "open.sh"
+    "bashfile": "open.sh",
+    "command": [{
+      "title": "Open a specific app:",
+      "code": "open chrome"
+    },{
+      "title": "List all the apps",
+      "code": "open apps"
+    }]
   }
 ]

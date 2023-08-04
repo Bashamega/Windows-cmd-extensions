@@ -12,6 +12,7 @@ Navigate to the bats folder inside the windows-cmd-extensions folder.
 
 Create a new .bat file with your custom command logic. For example, if your command is "mycommand", create a file named mycommand.bat.
 
+
 Save your custom .bat file in the bats folder.
 
 Now, navigate to the data folder inside the windows-cmd-extensions folder.
@@ -24,10 +25,21 @@ Add an entry for your custom command in the following format:
 {
     "name": "mycommand",
     "description": "Description of your custom command",
-    "command": "mycommand.bat"
+    "author":"bashamega",
+    "batfile": "mycommand.bat",
+    "bashfile": "mycommand.sh",
+    "command": [{
+      "title": "command title",
+      "code": "command1"
+    },{
+      "title": "command title",
+      "code": "command2"
+    }]
 }
 ```
 Replace "mycommand" with the name of your command (without the .bat extension), and provide a brief description of what the command does.
+And provide the bash file name if you have a basha file for your extension, if not then just delete it.
+Also provide in the command section the list of commands You use, and replace the author with you github username.
 
 Save the commands.json file.
 
