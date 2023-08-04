@@ -70,5 +70,15 @@
       "title": "List all the apps",
       "code": "open apps"
     }]
+  },
+  {
+    "title": "Sleep",
+    "description": "The script configures the display timeout duration for both AC power (plugged in) and DC power (on battery) using the entered value. ",
+    "author": "bashamega",
+    "batfile": "sleep.bat",
+    "command": [{
+      "title": "Change the configuration discplay timout duration",
+      "code": "sleep"
+    }]
   }
 ]
