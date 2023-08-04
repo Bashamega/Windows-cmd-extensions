@@ -25,5 +25,11 @@
     "description": "Counts all the files in a specific directory that you can assign",
     "batfile": "filecounter.bat",
     "bashfile":"filecounter.sh"
+  },
+  {
+    "title": "open",
+    "description": "This command opens any app you want to open",
+    "batfile": "open.bat",
+    "bashfile": "open.sh"
   }
 ]
