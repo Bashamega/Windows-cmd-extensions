@@ -24,7 +24,7 @@ if (hasParams) {
             container.classList.add("middle")
             container.id("deatails")
             container.innerHTML = `
-            <h1> ${name}</h1>
+            <h1 id="titledet"> ${name}</h1>
             <p>${command.description}</p>
 
             <br><br>
@@ -51,7 +51,7 @@ if (hasParams) {
         }
        });
     })
-    if(!document.getElementById("deatails")){window.location.href = "https://bashamega.github.io/Windows-cmd-extensions/web/?"}
+    if(!document.getElementById("titledet")){window.location.href = "https://bashamega.github.io/Windows-cmd-extensions/web/?"}
 
 }else{
     fetch("https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/data/commands.json")
