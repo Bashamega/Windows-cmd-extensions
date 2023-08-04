@@ -10,7 +10,7 @@ if (hasParams) {
     searchInput.parentNode.removeChild(searchInput)
     
 
-    fetch("http://127.0.0.1:5500/Windows-cmd-extensions-/windows-cmd-extensions/data/commands.json")
+    fetch("https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/data/commands.json")
     .then(res=>res.json())
     .then(data=>{
 
@@ -22,6 +22,7 @@ if (hasParams) {
             const nametitle = decodeURI(name)
             const container = document.createElement("div")
             container.classList.add("middle")
+            container.id("deatails")
             container.innerHTML = `
             <h1> ${name}</h1>
             <p>${command.description}</p>
@@ -50,7 +51,7 @@ if (hasParams) {
         }
        });
     })
-    
+    if(!document.getElementById("deatails")){window.location.href = "https://bashamega.github.io/Windows-cmd-extensions/web/?"}
 
 }else{
     fetch("https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/data/commands.json")
