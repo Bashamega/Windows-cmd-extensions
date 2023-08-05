@@ -7,7 +7,8 @@ if (hasParams) {
     const name = decodeURI(params.get("name"))
     const bugs = [];
     searchInput.parentNode.removeChild(searchInput);
-    fetch(`https://api.github.com/search/issues?q=repo:bashamega/windows-cmd-extensions%20%22[${name}]%22%20in:title`)
+    fetch(`https://api.github.com/search/issues?q=repo:bashamega/windows-cmd-extensions%20%22[${name}]%22%20in:title%20is:issue`)
+
     .then(res=>res.json())
     .then(data=>{
         const item = data.items
@@ -47,7 +48,7 @@ if (hasParams) {
                     <div id="bugs">
                     ${bugs.map(bug=>`
                     <div  class="bug">
-                    <a href="${bug.url}">
+                    <a href="${bug.html_url}">
                     <h1>${bug.title}</h1>
                     <div><p>${bug.user.login}</p><img src="${bug.user.avatar_url}"></div>
                     </a>
