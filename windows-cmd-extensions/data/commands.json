@@ -80,5 +80,17 @@
       "title": "Change the configuration discplay timout duration",
       "code": "sleep"
     }]
+  },
+  {
+    "title": "Password Generator",
+    "description": "A simple password generator",
+    "author": "bashamega",
+    "batfile": "password.bat",
+    "command":[
+      {
+        "title": "Generate a password",
+        "code": "password $password_length"
+      }
+    ]
   }
 ]
