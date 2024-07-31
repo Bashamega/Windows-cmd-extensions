@@ -8,82 +8,45 @@
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="shortcut icon" href="https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/db/img/icon.png" type="image/x-icon">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-
-        .download-container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #dee2e6;
-            border-radius: 10px;
-            background-color: #fff;
-        }
-
-        .download-button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-size: 18px;
-            transition: background-color 0.3s;
-        }
-
-        .download-button:hover {
-            background-color: #0056b3;
-            color: #fff;
-        }
-
-        .about-section {
-            text-align: center;
-            margin: 40px 0;
-        }
-
-        .about-icon {
-            max-width: 100px;
-            margin-bottom: 20px;
-        }
-
-        .features-section {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container mt-5">
-        <div class="download-container">
-            <div class="about-section">
-                <img src="https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/db/img/icon.png"
-                    alt="Windows CMD Extensions Icon" class="about-icon">
+    <body>
+        <div class="container mt-5">
+            <div class="hero-section">
+                <img src="https://bashamega.github.io/Windows-cmd-extensions/windows-cmd-extensions/db/img/icon.png" alt="Windows CMD Extensions Icon">
                 <h1>Windows CMD Extensions</h1>
-                <p>Enhance your Windows CMD with these awesome extensions! It allows you to have custom commands without
-                    coding.</p>
+                <p>Enhance your Windows CMD with these awesome extensions! It allows you to have custom commands without coding.</p>
+                <a href="https://bashamega.github.io/Windows-cmd-extensions/apps/exe/windows-cmd-extensions.exe" class="download-button">Download Now</a>
+                <a href="https://bashamega.github.io/Windows-cmd-extensions/web" class="web-link">Open in the web</a>
             </div>
-            <div class="features-section">
+    
+            <div class="features-section text-center">
                 <h2>Features:</h2>
-                <ul class="list-unstyled">
-                    <li>Easy-to-use interface for creating custom commands.</li>
-                    <li>No coding required.</li>
-                    <li>Enhance your productivity with personalized commands.</li>
-                    <li>Execute complex actions with simple commands.</li>
-                    <li>Supports Windows CMD on all versions of Windows.</li>
-                </ul>
+                <div class="row">
+                    <div class="col-md-4 feature-item">
+                        <p>Easy-to-use interface for creating custom commands.</p>
+                    </div>
+                    <div class="col-md-4 feature-item">
+                        <p>No coding required.</p>
+                    </div>
+                    <div class="col-md-4 feature-item">
+                        <p>Enhance your productivity with personalized commands.</p>
+                    </div>
+                    <div class="col-md-4 feature-item">
+                        <p>Execute complex actions with simple commands.</p>
+                    </div>
+                    <div class="col-md-4 feature-item">
+                        <p>Supports Windows CMD on all versions of Windows.</p>
+                    </div>
+                </div>
             </div>
-            <div class="text-center">
-                <a href="https://bashamega.github.io/Windows-cmd-extensions/apps/exe/windows-cmd-extensions.exe"
-                    class="download-button">Download Now</a>
-                <br><br>
-                <a href="https://bashamega.github.io/Windows-cmd-extensions/web">Open in the web</a>
+    
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_bA-NsVIB6M?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </div>
-            <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_bA-NsVIB6M?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" style="margin-top: 1%;"></iframe>
         </div>
-    </div>
 
     <!-- Add Bootstrap JS and other scripts if needed -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

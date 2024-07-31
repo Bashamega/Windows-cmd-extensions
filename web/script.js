@@ -1,7 +1,6 @@
 const url = new URL(window.location.href); // Use a new URL object to work with URL components
 const hasParams = url.search.length > 0; // Simplified condition to check for query parameters
 const searchInput = document.getElementById("searchInput");
-
 if (hasParams) {
     const params = new URLSearchParams(url.search);
     const name = decodeURI(params.get("name"))
@@ -55,6 +54,7 @@ if (hasParams) {
                     </div>
                     `).join('')}
                     </div>
+                    <br/>
                     <a href="https://github.com/Bashamega/Windows-cmd-extensions/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=%5B${name}%5D"><button>Report issue</button></a>
                 `;
 
