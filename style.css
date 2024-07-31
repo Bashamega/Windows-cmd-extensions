@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-section img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+}
+
+.features-section {
+    margin: 40px 0;
+}
+
+.features-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    margin-bottom: 20px;
+}
+
+.download-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.download-button:hover {
+    background-color: #218838;
+    color: #fff;
+}
+
+.web-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #f8f9fa;
+
+}.web-link:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
