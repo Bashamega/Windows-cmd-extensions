@@ -92,5 +92,15 @@
         "code": "password $password_length"
       }
     ]
-  }
+  },
+  {
+    "name": "DriveInfo",
+    "description": "Displays detailed information about all storage drives connected to the system, including the type, filesystem, free space, and total size.",
+    "author": "bashamega",
+    "batfile": "driveinfo.bat",
+    "command": [{
+        "title": "Display Drive Information",
+        "code": "driveinfo"
+    }]
+}
 ]
