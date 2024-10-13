@@ -1,5 +1,41 @@
 [
   {
+    "name": "AdvancedNetworkDiagnostics",
+    "description": "Performs comprehensive network diagnostics including connectivity tests, speed tests, open port scans, and detailed network configuration analysis.",
+    "batfile": "AdvancedNetworkDiagnostics.bat",
+    "commands": [
+      {
+        "command": "ipconfig",
+        "description": "Fetches and displays basic IP configuration."
+      },
+      {
+        "command": "ping",
+        "description": "Tests connectivity with common public servers like Google and GitHub."
+      },
+      {
+        "command": "netstat -an",
+        "description": "Displays active network connections and checks for open ports."
+      },
+      {
+        "command": "powershell",
+        "description": "Executes a PowerShell script for network speed testing."
+      },
+      {
+        "command": "netstat",
+        "description": "Scans for open ports on the local system."
+      },
+      {
+        "command": "ipconfig /displaydns",
+        "description": "Shows the DNS resolver cache."
+      },
+      {
+        "command": "tracert",
+        "description": "Performs a trace route to Google to check for network path issues."
+      }
+    ]
+  },
+
+  {
     "title": "Chrome",
     "description": "This extension automatically opens Chrome browser when you run Chrome.",
     "batfile": "chrome.bat",
@@ -12,7 +48,6 @@
   {
     "title": "Touch",
     "author": "bashamega",
-
     "description": "This extension allows you to use touch on Windows.",
     "batfile": "touch.bat",
     "command": [{
