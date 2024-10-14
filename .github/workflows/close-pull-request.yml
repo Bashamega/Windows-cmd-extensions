@@ -1,0 +1,15 @@
+name: Close Unsafe Pull Request
+
+on:
+  repository_dispatch:
+    types: [close_pr]
+
+jobs:
+  close-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close the pull request
+        uses: peter-evans/close-pull-request@v4
+        with:
+          pull-request-number: ${{ github.event.client_payload.pr_number }}
+          comment: "This pull request contains unsafe batch file commands and has been closed automatically."
