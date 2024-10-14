@@ -1,6 +1,6 @@
 [
   {
-    "name": "AdvancedNetworkDiagnostics",
+    "title": "AdvancedNetworkDiagnostics",
     "description": "Performs comprehensive network diagnostics including connectivity tests, speed tests, open port scans, and detailed network configuration analysis.",
     "batfile": "AdvancedNetworkDiagnostics.bat",
     "commands": [
