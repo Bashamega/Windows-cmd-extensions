@@ -7,31 +7,31 @@
     "commands": [
       {
         "command": "ipconfig",
-        "description": "Fetches and displays basic IP configuration."
+        "title": "Fetches and displays basic IP configuration."
       },
       {
         "command": "ping",
-        "description": "Tests connectivity with common public servers like Google and GitHub."
+        "title": "Tests connectivity with common public servers like Google and GitHub."
       },
       {
         "command": "netstat -an",
-        "description": "Displays active network connections and checks for open ports."
+        "title": "Displays active network connections and checks for open ports."
       },
       {
         "command": "powershell",
-        "description": "Executes a PowerShell script for network speed testing."
+        "title": "Executes a PowerShell script for network speed testing."
       },
       {
         "command": "netstat",
-        "description": "Scans for open ports on the local system."
+        "title": "Scans for open ports on the local system."
       },
       {
         "command": "ipconfig /displaydns",
-        "description": "Shows the DNS resolver cache."
+        "title": "Shows the DNS resolver cache."
       },
       {
         "command": "tracert",
-        "description": "Performs a trace route to Google to check for network path issues."
+        "title": "Performs a trace route to Google to check for network path issues."
       }
     ]
   },
