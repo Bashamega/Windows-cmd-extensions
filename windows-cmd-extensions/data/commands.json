@@ -3,6 +3,7 @@
     "title": "AdvancedNetworkDiagnostics",
     "description": "Performs comprehensive network diagnostics including connectivity tests, speed tests, open port scans, and detailed network configuration analysis.",
     "batfile": "AdvancedNetworkDiagnostics.bat",
+    "author": "Satyasn01",
     "commands": [
       {
         "command": "ipconfig",
@@ -131,7 +132,7 @@
   {
     "title": "DriveInfo",
     "description": "Displays detailed information about all storage drives connected to the system, including the type, filesystem, free space, and total size.",
-    "author": "bashamega",
+    "author": "anjali vaish",
     "batfile": "driveinfo.bat",
     "command": [{
         "title": "Display Drive Information",
